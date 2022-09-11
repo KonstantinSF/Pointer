@@ -37,7 +37,7 @@ void main()
 			}
 		}
 	}
-	Print(even, e);
+	Print(even, e);//вывод на экран четного массива
 	countNum = 0;//обнулили счетчик итераций исх массива
 	for (int i = 0; i < o; i++)
 	{
@@ -51,7 +51,7 @@ void main()
 			}
 		}
 	}
-	Print(odd, o);
+	Print(odd, o);//вывод на экран нечетного массива
 	delete[] even;
 	delete[] odd;
 }
